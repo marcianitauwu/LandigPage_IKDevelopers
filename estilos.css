@@ -53,9 +53,8 @@ body{
 }
 
 .logo{
-    position: absolute;
-    top: 144px;
-    left: 165px;
+    padding-top: 65px;
+    padding-left: 165px;
     display: flex;
     height: 546px;
     width: 1145px;
