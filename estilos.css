@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Romanesco&display=swap');
+
+body{
+    background-color:#f5f5f5 ;
+    font-family: "Inter";
+}
+:root{
+}
 #navbar{
     display: flex;
     justify-content: space-between;
+    height: 79px;
+    background-color: white;
 }
 .navbar-list-central{
     display: flex;
@@ -11,7 +21,10 @@
 .navbar-list-central a{
     color: black;
     text-decoration: none;
-    
+    font-size: 16px;
+    color: #4A5568;
+
+
 }
 
 .contact{
@@ -20,19 +33,188 @@
     justify-content: center;
     align-content: center;
     margin-right: 50px;
-    background-color: blue;
-    color: white;
-    width: 100px;
+    background: linear-gradient(#6675F7,#57007B);
+    color: #FAFAFA;
+    width: 124px;
+    height: 42px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10%;
+    border-radius: 5%;
+
     
 }
 
 #navbar-izq{
-    justify-content: center;
+    font-size: 24px;
+    justify-content: space-between;
     align-content: center;
     padding-left: 50px;
-    font-size: larger;
 }
+
+.logo{
+    position: absolute;
+    top: 144px;
+    left: 165px;
+    display: flex;
+    height: 546px;
+    width: 1145px;
+    align-items: center;
+    justify-content: center;
+  
+}
+.logo-imagen{
+    width: 614px;
+    height: 546px;
+}
+
+.logo-contenido{
+    width: 531px;
+    height: 355px;
+    display: flex;
+    flex-direction: column;
+
+}
+.titulo-morado-claro{
+    background: linear-gradient(#DE4396, #0D1C9F00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  
+}
+.titulo-morado{
+    background: linear-gradient(#F7666F, #406AFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  
+}
+.logo-contenido h1{
+    font-size: 45px;
+    font-weight: 300;
+    margin: 0;
+    
+    
+}
+.logo-contenido h1 b{
+    font-size: 51px;
+    font-weight: 800;
+    
+}
+.logo-contenido p{
+    padding-top: 5%;
+    font-size: 18px;
+    font-weight: 400;
+    color: #4A5568;
+}
+
+.logo-contenido a{
+    height: 52px;
+    width: 175px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #FAFAFA;
+    background-color: #3D63EA;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    margin-top: 10%;
+    padding: 0;
+}
+
+.recursos{
+
+height: 489;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 10%;
+}
+#recursos-titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+.recursos h2,h3{
+    color: #1A202C;
+    font-weight: 400;
+    font-size: 35px;
+    margin: 0;
+    padding: 0%;
+}
+.recurso h4{
+    color: #2D3748;
+    font-size: 16px;
+    font-weight: 500;
+}
+.recursos-contenido{
+
+    display: flex;
+    gap: 60px;
+    width: 1196px;
+    height: 315px;
+}
+.recurso a{
+    text-decoration: none;
+    display: flex;
+    justify-content: right;
+    padding-right: 2%;
+
+}
+
+
+.recurso{
+    gap: 20px;
+    padding-top: 4%;
+}
+.recurso img{
+    width: 254px;
+    height: 175px;
+    border-radius: 10%;
+    
+}
+
+
+.footer-contenido{
+    width: 1230px;
+    height: 294px;
+    display: flex;
+    margin-top: 34px;
+    margin-bottom: 34px;
+    margin-left: 105px;
+    margin-right: 105px;
+    align-content: center;
+    justify-content: space-between;
+    color: #718096;
+    line-height: 30px;
+}
+.footer-contenido img{
+    width: 34px;
+    height: 34px;
+}
+.footer-contenido ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-contenido a{
+    text-decoration: none;
+    color: #718096;
+}
+.redes{
+    display: flex;
+    align-items: end;
+}
+.copyright{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+
+
