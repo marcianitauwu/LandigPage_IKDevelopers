@@ -53,9 +53,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5%;
-
-    
+    border-radius: 5%;   
 }
 
 #navbar-izq{
@@ -70,9 +68,9 @@ body{
     padding-left: 165px;
     display: flex;
     height: 546px;
+    width: 1145px;
     align-items: center;
-    justify-content: center;
-  
+    justify-content: center; 
 }
 .logo-imagen{
     width: 614px;
@@ -84,7 +82,6 @@ body{
     height: 355px;
     display: flex;
     flex-direction: column;
-
 }
 .titulo-morado-claro{
     background: linear-gradient(#DE4396, #0D1C9F00);
@@ -282,9 +279,10 @@ body{
     flex-direction: column;
     text-align: center;
     align-items: center;
-    justify-content: center;
     margin-top: 100px;
     background: var(--color-fondo);
+    border-top: 1px solid var(--color-borde-items);
+    border-bottom: 1px solid var(--color-borde-items);
 }
 #approach1, #approach2{
     color: var(--color-primerio-letras);
@@ -313,6 +311,7 @@ body{
     padding-right: 100px;
     text-align: justify;
     align-items: center;
+    margin-top: 70px;
 }
 
 .item{
@@ -324,7 +323,7 @@ body{
     padding: 25px;
     width: 604px;
     height: 170px;
-    border: 2px solid var(--color-borde-items);
+    border: 1px solid var(--color-borde-items);
 }
 .item h3{
     color: var(--color-primerio-letras);
